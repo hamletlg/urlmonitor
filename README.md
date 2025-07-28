@@ -22,41 +22,54 @@ URL_Monitor is a WxPython desktop application that monitors web pages for change
 
 ## Installation
 
+
 ### Prerequisites
 - Python 3.7 or higher
 - wxPython 4.0 or higher (with WebView support)
+
 
 ### Steps
 1. Clone this repository:
    ```bash
    git clone https://github.com/yourusername/url-monitor.git
    cd url-monitor
-Install required packages:
-bash
 
+2. Install required packages:
+```bash
 pip install -r requirements.txt
 
-Run the application:
-bash
-
+3. Run the application:
+```bash
     python url_monitor.py
 
 ## Usage
 
 Add a URL to monitor:
 Enter the full URL (e.g., https://example.com)
+
 Set the check interval in seconds.
+
 (Optional) Specify an HTML element to monitor:
+
 Tag name (e.g., div, span)
+
 Selector type (id or class)
+
 Selector value (the actual ID or class name)
+
 Start monitoring:
+
 Click "Start Monitoring" to begin periodic checks
+
 The status column will show the last check result
+
 View changes:
+
 When changes are detected, you'll get a desktop notification
+
 The right panel shows the current page in WebView
- The status will change to "Change Detected!"
+
+The status will change to "Change Detected!"
 
 ## Configuration
 
@@ -80,6 +93,7 @@ Requirements
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements.
+
 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
