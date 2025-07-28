@@ -4,7 +4,7 @@
 ![wxPython](https://img.shields.io/badge/wxPython-4.0+-green.svg)
 ![License](https://img.shields.io/badge/license-MIT-orange.svg)
 
-URL:Monitor is a WxPython desktop application that monitors web pages for changes, with special support for tracking specific HTML elements. It uses wxPython's WebView component for reliable page loading and element inspection.
+URL_Monitor is a WxPython desktop application that monitors web pages for changes, with special support for tracking specific HTML elements. It uses wxPython's WebView component for reliable page loading and element inspection.
 
 ## Features
 
@@ -18,7 +18,7 @@ URL:Monitor is a WxPython desktop application that monitors web pages for change
 
 ## Screenshot
 
-[URL:](images/url_monitor.png "Main application window showing URL list and WebView")
+(images/url_monitor.png "Main application window showing URL list and WebView")
 
 ## Installation
 
@@ -119,11 +119,15 @@ The application automatically saves your monitored URLs to url_monitor_data.pkl 
 
 ## Requirements
  –	wxPython >= 4.0.0
+ 
  –	requests >= 2.0.0
+ 
  –	beautifulsoup4 >= 4.0.0
 
 ## Known Limitations
-WebView requires a compatible backend (WebKitGTK on Linux, Edge on Windows)Some websites may block automated accessComplex JavaScript-heavy pages may not be fully supported
+WebView requires a compatible backend (WebKitGTK on Linux, Edge on Windows)
+Some websites may block automated access
+heavy pages with complex javascript may not be fully supported
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any improvements. License
