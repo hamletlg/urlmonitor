@@ -4,7 +4,7 @@
 ![wxPython](https://img.shields.io/badge/wxPython-4.0+-green.svg)
 ![License](https://img.shields.io/badge/license-MIT-orange.svg)
 
-URL_Monitor is a WxPython desktop application that monitors web pages for changes, with special support for tracking specific HTML elements. It uses wxPython's WebView component for reliable page loading and element inspection.
+URL_Monitor is a wxPython desktop application that monitors web pages for changes, with special support for tracking specific HTML elements. It uses wxPython's WebView component for reliable page loading and element inspection.
 
 ## Features
 
