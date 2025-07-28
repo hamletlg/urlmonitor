@@ -18,7 +18,7 @@ URL_Monitor is a WxPython desktop application that monitors web pages for change
 
 ## Screenshot
 
-![Main application window showing URL list and WebView] (images/url_monitor.png)
+![Main application window showing URL list and WebView](images/url_monitor.png)
 
 ## Installation
 
