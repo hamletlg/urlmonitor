@@ -1,4 +1,4 @@
-# URL:Monitor - Web Page Change Detection Tool
+# URL_Monitor - Web Page Change Detection Tool
 
 ![Python](https://img.shields.io/badge/python-3.7+-blue.svg)
 ![wxPython](https://img.shields.io/badge/wxPython-4.0+-green.svg)
